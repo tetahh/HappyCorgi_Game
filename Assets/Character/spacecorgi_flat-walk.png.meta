@@ -1,0 +1,702 @@
+fileFormatVersion: 2
+guid: e913bbf45bdcde34f97d58e2bf27b069
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -702075449699609988
+    second: spacecorgi_flat-walk_0
+  - first:
+      213: 3315254405785259117
+    second: spacecorgi_flat-walk_1
+  - first:
+      213: 1647245271850135686
+    second: spacecorgi_flat-walk_2
+  - first:
+      213: 6707866641024610125
+    second: spacecorgi_flat-walk_3
+  - first:
+      213: 7963660912302903993
+    second: spacecorgi_flat-walk_4
+  - first:
+      213: -8620741646771830787
+    second: spacecorgi_flat-walk_5
+  - first:
+      213: 7748510143465467672
+    second: spacecorgi_flat-walk_6
+  - first:
+      213: -4814081837852886903
+    second: spacecorgi_flat-walk_7
+  - first:
+      213: 550852638416741605
+    second: spacecorgi_flat-walk_8
+  - first:
+      213: -1185349141299374450
+    second: spacecorgi_flat-walk_9
+  - first:
+      213: 4152260051347740054
+    second: spacecorgi_flat-walk_10
+  - first:
+      213: -8274858153945644170
+    second: spacecorgi_flat-walk_11
+  - first:
+      213: -5367641028804744410
+    second: spacecorgi_flat-walk_12
+  - first:
+      213: -3767197147400379826
+    second: spacecorgi_flat-walk_13
+  - first:
+      213: -2115937590721131186
+    second: spacecorgi_flat-walk_14
+  - first:
+      213: -6637723729259625372
+    second: spacecorgi_flat-walk_15
+  - first:
+      213: 8428903711498548496
+    second: spacecorgi_flat-walk_16
+  - first:
+      213: 7293712186067520086
+    second: spacecorgi_flat-walk_17
+  - first:
+      213: -4384466758625480702
+    second: spacecorgi_flat-walk_18
+  - first:
+      213: -7401556679685537456
+    second: spacecorgi_flat-walk_19
+  - first:
+      213: -7203213791483578604
+    second: spacecorgi_flat-walk_20
+  - first:
+      213: 5413500661515677184
+    second: spacecorgi_flat-walk_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spacecorgi_flat-walk_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 108
+        width: 142
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c72d127291ab146f0800000000000000
+      internalID: -702075449699609988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacecorgi_flat-walk_1
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 108
+        width: 142
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6c01ec2156220e20800000000000000
+      internalID: 3315254405785259117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacecorgi_flat-walk_2
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 108
+        width: 142
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 680b196e8d03cd610800000000000000
+      internalID: 1647245271850135686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacecorgi_flat-walk_3
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 107
+        width: 142
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4fe6f29b21271d50800000000000000
+      internalID: 6707866641024610125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacecorgi_flat-walk_4
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 107
+        width: 142
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b25a7d086b948e60800000000000000
+      internalID: 7963660912302903993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacecorgi_flat-walk_5
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 107
+        width: 142
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dffbfbb9529fc5880800000000000000
+      internalID: -8620741646771830787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacecorgi_flat-walk_6
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 107
+        width: 142
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81f25cf0cec388b60800000000000000
+      internalID: 7748510143465467672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacecorgi_flat-walk_7
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 108
+        width: 142
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9887e171312f03db0800000000000000
+      internalID: -4814081837852886903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacecorgi_flat-walk_8
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 109
+        width: 142
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e4aa6c5e8505a700800000000000000
+      internalID: 550852638416741605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacecorgi_flat-walk_9
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 110
+        width: 142
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e86590a7c3bcc8fe0800000000000000
+      internalID: -1185349141299374450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacecorgi_flat-walk_10
+      rect:
+        serializedVersion: 2
+        x: 1441
+        y: 110
+        width: 142
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69590af548acf9930800000000000000
+      internalID: 4152260051347740054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacecorgi_flat-walk_11
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 110
+        width: 142
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 673435fd95cc92d80800000000000000
+      internalID: -8274858153945644170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacecorgi_flat-walk_12
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 109
+        width: 142
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62be74c5cee4285b0800000000000000
+      internalID: -5367641028804744410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacecorgi_flat-walk_13
+      rect:
+        serializedVersion: 2
+        x: 1873
+        y: 109
+        width: 142
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e42e556672a38bbc0800000000000000
+      internalID: -3767197147400379826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacecorgi_flat-walk_14
+      rect:
+        serializedVersion: 2
+        x: 2017
+        y: 109
+        width: 142
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4dcb22d8fda2a2e0800000000000000
+      internalID: -2115937590721131186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacecorgi_flat-walk_15
+      rect:
+        serializedVersion: 2
+        x: 2161
+        y: 108
+        width: 142
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4648c48bf6112e3a0800000000000000
+      internalID: -6637723729259625372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacecorgi_flat-walk_16
+      rect:
+        serializedVersion: 2
+        x: 2305
+        y: 107
+        width: 142
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 015b7d1744b79f470800000000000000
+      internalID: 8428903711498548496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacecorgi_flat-walk_17
+      rect:
+        serializedVersion: 2
+        x: 2449
+        y: 107
+        width: 142
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65a0e78e698783560800000000000000
+      internalID: 7293712186067520086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacecorgi_flat-walk_18
+      rect:
+        serializedVersion: 2
+        x: 2593
+        y: 107
+        width: 142
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 200be9286be3723c0800000000000000
+      internalID: -4384466758625480702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacecorgi_flat-walk_19
+      rect:
+        serializedVersion: 2
+        x: 2737
+        y: 108
+        width: 142
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0518c6a3a63684990800000000000000
+      internalID: -7401556679685537456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacecorgi_flat-walk_20
+      rect:
+        serializedVersion: 2
+        x: 2881
+        y: 109
+        width: 142
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4173d6d883b090c90800000000000000
+      internalID: -7203213791483578604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacecorgi_flat-walk_21
+      rect:
+        serializedVersion: 2
+        x: 3025
+        y: 108
+        width: 142
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00eebf07b2e902b40800000000000000
+      internalID: 5413500661515677184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spacecorgi_flat-walk_0: -702075449699609988
+      spacecorgi_flat-walk_1: 3315254405785259117
+      spacecorgi_flat-walk_10: 4152260051347740054
+      spacecorgi_flat-walk_11: -8274858153945644170
+      spacecorgi_flat-walk_12: -5367641028804744410
+      spacecorgi_flat-walk_13: -3767197147400379826
+      spacecorgi_flat-walk_14: -2115937590721131186
+      spacecorgi_flat-walk_15: -6637723729259625372
+      spacecorgi_flat-walk_16: 8428903711498548496
+      spacecorgi_flat-walk_17: 7293712186067520086
+      spacecorgi_flat-walk_18: -4384466758625480702
+      spacecorgi_flat-walk_19: -7401556679685537456
+      spacecorgi_flat-walk_2: 1647245271850135686
+      spacecorgi_flat-walk_20: -7203213791483578604
+      spacecorgi_flat-walk_21: 5413500661515677184
+      spacecorgi_flat-walk_3: 6707866641024610125
+      spacecorgi_flat-walk_4: 7963660912302903993
+      spacecorgi_flat-walk_5: -8620741646771830787
+      spacecorgi_flat-walk_6: 7748510143465467672
+      spacecorgi_flat-walk_7: -4814081837852886903
+      spacecorgi_flat-walk_8: 550852638416741605
+      spacecorgi_flat-walk_9: -1185349141299374450
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
