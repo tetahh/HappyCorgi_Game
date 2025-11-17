@@ -3,17 +3,18 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     [Header("Movement Settings")]
-    public float moveSpeed = 7f;
-    public float jumpForce = 12f;
+    public float moveSpeed;
+    public float jumpForce;
 
     [Header("Ground Settings")]
     public Transform groundCheck;
-    public float groundCheckWidth = 0.5f;      // ngang chân nhân vật
-    public float groundCheckHeight = 0.05f;    // chiều cao BoxCast
-    public float groundCheckDistance = 0.1f;   // khoảng check xuống dưới
+    public float groundCheckWidth = 0.5f;
+    public float groundCheckHeight = 0.05f;
+    public float groundCheckDistance = 0.1f;
     public LayerMask groundLayer;
 
     private Rigidbody2D rb;
+    private Animator anim;
     private float move;
     private bool onGround;
     private int airJumpsLeft;
@@ -21,14 +22,15 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        airJumpsLeft = 1; // double jump = 1 lần nhảy trên không
+        anim = GetComponent<Animator>();
+        airJumpsLeft = 1; // double jump
     }
 
     void Update()
     {
         move = Input.GetAxisRaw("Horizontal");
 
-        // Ground check bằng BoxCast (ổn định hơn raycast)
+        // Ground check
         onGround = Physics2D.BoxCast(
             groundCheck.position,
             new Vector2(groundCheckWidth, groundCheckHeight),
@@ -40,10 +42,10 @@ public class PlayerController : MonoBehaviour
 
         if (onGround)
         {
-            airJumpsLeft = 1; // reset double jump khi chạm đất
+            airJumpsLeft = 1;
         }
 
-        // Nhảy
+        // Jump
         if (Input.GetButtonDown("Jump"))
         {
             if (onGround)
@@ -56,14 +58,19 @@ public class PlayerController : MonoBehaviour
                 airJumpsLeft--;
             }
         }
+
+        // UPDATE ANIMATOR
+        anim.SetFloat("Speed", Mathf.Abs(move));
+        anim.SetBool("OnGround", onGround);
+        anim.SetFloat("YVelocity", rb.linearVelocity.y);
     }
 
     void FixedUpdate()
     {
-        // Di chuyển ngang
+        // Move
         rb.linearVelocity = new Vector2(move * moveSpeed, rb.linearVelocity.y);
 
-        // Flip hướng đi
+        // Flip
         if (move > 0)
             transform.localScale = Vector3.one;
         else if (move < 0)
@@ -75,7 +82,6 @@ public class PlayerController : MonoBehaviour
         if (groundCheck != null)
         {
             Gizmos.color = Color.red;
-            // Vẽ BoxCast hình chữ nhật
             Gizmos.DrawWireCube(
                 groundCheck.position + Vector3.down * groundCheckDistance / 2,
                 new Vector3(groundCheckWidth, groundCheckHeight + groundCheckDistance, 0)
